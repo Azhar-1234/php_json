@@ -18,10 +18,6 @@
 		$obj->setVal("abdullah",222);
 	echo json_encode($obj);
 
-
-
-
-
 // <!!!!!!!!-------------------------!!first part->>>>>>>>>>>>>>>>>>>>>
 
 	// $jsonString=<<<"JSON"
@@ -61,3 +57,30 @@
 	// echo "<pre>";
 	// 	echo json_encode($students);
 	// echo "</pre>";
+
+	// $jsoString=<<<"JSON"
+	// [
+	// 	  {"value":"social icon","type":"text","value":"its a heading"},
+	// 	  {"value":"facebook","type":"text","icon":"fa fa-facebook","url":"facebook.com"},
+	// 	  {"value":"twitter","type":"text","icon":"fa fa-twitter","url":"twitter.com"},
+	// 	  {"value":"whatsapp","type":"text","icon":"fa fa-whatsapp","url":"whatsapp.com"}
+		
+	// ]
+	// JSON;
+
+	//   	$json = json_decode($jsoString,true);//convert to array 
+
+
+	// foreach ($json as $key => $value) {
+	//   switch ($key) {
+	//   	case '1':
+	//   		echo $value['icon'];
+	//   		break;
+	//   	case '2':
+	//   		echo $value['icon'];
+	//   		break;
+	//   	case '3':
+	//   		echo $value['icon'];
+	//   		break;
+	//  	 }
+	// }
